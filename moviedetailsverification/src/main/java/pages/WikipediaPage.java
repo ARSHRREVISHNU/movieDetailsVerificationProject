@@ -14,12 +14,14 @@ public class WikipediaPage {
 
 	public String wikiActualCountryReleaseDate;
 	public String wikiActualcountryRelease;
+//Driver object
 	WebDriver driver;
+//JavascriptExecutor object	
 	JavascriptExecutor js;  
 	public  WikipediaPage(WebDriver driver) {
 		this.driver = driver;
 		}
-	
+//Web Elements	
 	By wikiSearchBar = By.id("searchInput");
 	By wikiSearchButton = By.id("searchButton");
 	By totalElementsXpath = By.xpath("//div[@id='bodyContent']//div[5]//div[1]//table[1]//tbody//tr");
