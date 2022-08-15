@@ -13,6 +13,7 @@ public class IMDBPage {
 
 	public String imdbActualCountryRelease;
 	public String imdbActualCountryReleaseDate;
+	//Creation of web driver object
 	WebDriver driver;	
 	//Constructor method that will be invoked automatically as soon as the object of the class is created
 	public IMDBPage(WebDriver driver) {
@@ -35,7 +36,7 @@ public class IMDBPage {
     By releaseCountries = By.xpath("//div[@id='releaseinfo_content']//table[1]//tbody//tr");
     
     
-	//Method to enter the text in the search bar and click
+	//Method to enter the movie name in the search bar and click
 	public void textSearch(String movie) {
 		driver.findElement(searchBar).sendKeys(movie);
         driver.findElement(searchButton).click();
