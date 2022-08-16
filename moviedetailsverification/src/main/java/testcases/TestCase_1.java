@@ -7,7 +7,7 @@ import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import org.testng.annotations.*;
 import pages.IMDBPage;
 import pages.WikipediaPage;
@@ -37,7 +37,8 @@ public class TestCase_1 {
 
 	@Test(dataProvider="inputProvider", dataProviderClass=DataProviders.class)
 	public void imdbAndWikiTest(String movieName) {
-		boolean country, releaseDate;
+		SoftAssert softAssert = new SoftAssert();
+		boolean country, releaseDate, countryAndReleaseDate=false;
 		//Getting total tabs opened
 		Set<String> tabs = driver.getWindowHandles();
 		ArrayList<String> all_tabs = new ArrayList<String>(tabs);
@@ -72,8 +73,12 @@ public class TestCase_1 {
 			releaseDate = false;
 		}
 
-		//Checking the country in imdb and wikipedia was same and release date in imdb and wikipedia was same
-		Assert.assertEquals(country, releaseDate, "Country and Release date both are not same");
+		//Checking the country in imdb and wikipedia was true and release date in imdb and wikipedia was true
+		if(country == true && releaseDate == true) {
+			countryAndReleaseDate = true;
+		}
+		softAssert.assertTrue(countryAndReleaseDate);
+		softAssert.assertAll();
 	}
 
 	@AfterTest
