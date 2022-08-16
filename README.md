@@ -14,3 +14,4 @@ Then the chrome version of 104 was needed.
 1. Pull this project to your loacl system.
 2. Open command prompt from inside the project directory or use "cd (project director path)" command. 
 3. Execute the command "mvn clean test -DtestNGFile=testng.xml".
+4. Once the execution was completed. Please check the results in the "emailable-report.html" which will be present in the "test-output" folder.
