@@ -13,7 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 
 public class XLUtility {
 
-	
+
 	public FileInputStream fi;
 	public FileOutputStream fo;
 	public XSSFWorkbook workbook;
@@ -26,8 +26,9 @@ public class XLUtility {
 	{
 		this.path = path;
 	}
+	//To get the total no of rows
 	public int getRowCount(String sheetName) throws IOException{
-		
+
 		fi = new FileInputStream(path);
 		workbook = new XSSFWorkbook(fi);
 		sheet=workbook.getSheet(sheetName);
@@ -36,6 +37,7 @@ public class XLUtility {
 		fi.close();
 		return rowCount;
 	}
+	//To get the total no of columns in a row
 	public int getCellCount(String sheetName, int rowNum) throws IOException{
 		fi = new FileInputStream(path);
 		workbook = new XSSFWorkbook(fi);
@@ -46,14 +48,14 @@ public class XLUtility {
 		fi.close();
 		return cellCount;
 	}
+	//To read the cell data
 	public String getCellData(String sheetName, int rowNum, int colNum) throws IOException{
-		
 		fi = new FileInputStream(path);
 		workbook = new XSSFWorkbook(fi);
 		sheet = workbook.getSheet(sheetName);
 		row = sheet.getRow(rowNum);
 		cell=row.getCell(colNum);
-		
+
 		DataFormatter formatter = new DataFormatter();
 		String data;
 		try {
@@ -66,36 +68,6 @@ public class XLUtility {
 		fi.close();
 		return data;
 	}
-	
-public void setCellData(String sheetName, int rowNum, int colNum, String data) throws IOException{
-	fi = new FileInputStream(path);
-    workbook = new XSSFWorkbook(fi);
-    sheet = workbook.getSheet(sheetName);
-    row = sheet.getRow(rowNum);
-    cell=row.createCell(colNum);
-    cell.setCellValue(data);
-    
-    fo=new FileOutputStream(path);
-    workbook.write(fo);
-    workbook.close();
-    fi.close();
-    fo.close();
-}
 
-public void fillGreenColor(String sheetName, int rowNum, int colNum) throws IOException{
-	
-	fi=new FileInputStream(path);
-	workbook = new XSSFWorkbook(fi);
-	sheet = workbook.getSheet(sheetName);
-	row = sheet.getRow(rowNum);
-	cell = row.getCell(colNum);
-	style = workbook.createCellStyle();
-	//style.
-
-}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }

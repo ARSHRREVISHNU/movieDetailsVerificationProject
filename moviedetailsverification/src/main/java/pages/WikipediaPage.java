@@ -8,18 +8,18 @@ public class WikipediaPage {
 
 	public String wikiActualCountryReleaseDate;
 	public String wikiActualcountryRelease;
-//Creating object for Web driver.
+	//Creating object for Web driver.
 	WebDriver driver;
 	public  WikipediaPage(WebDriver driver) {
 		this.driver = driver;
-		}
-   //Locator to find the search bar
+	}
+	//Locator to find the search bar
 	By wikiSearchBar = By.id("searchInput");
 	//Locator to find the search button
 	By wikiSearchButton = By.id("searchButton");
 	//Locator to find the all the rows in the table
 	By totalElementsXpath = By.xpath("//div[@id='bodyContent']//div[5]//div[1]//table[1]//tbody//tr");
-	
+
 	//Method to enter movie name in the search bar and click
 	public void wikipediaTextSearch(String movie) {
 		driver.findElement(wikiSearchBar).sendKeys(movie);
@@ -47,7 +47,7 @@ public class WikipediaPage {
 				break;
 			}
 		}
-		
+
 		//iterating the table to find release date - As first few rows contains other details we starting to iterate from 3 row
 		for(int i=3; i<=totalElements.size(); i++ ) {
 			//Locator to find each row header
