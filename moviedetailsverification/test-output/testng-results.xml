@@ -1,17 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[IMDB website was loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Wikipedia website was loaded.]]>
+    </line>
+    <line>
+      <![CDATA[Maximized the window.]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: PushpaThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: PushpaThe Release Date in the IMDB Website was: 17 December 2021The Release Date in the Wikipedia Website was: 17 December 2021]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Kumbalangi NightsThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Kumbalangi NightsThe Release Date in the IMDB Website was: 7 February 2019The Release Date in the Wikipedia Website was: 7 February 2019]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Vikrant RonaThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Vikrant RonaThe Release Date in the IMDB Website was: 28 July 2022The Release Date in the Wikipedia Website was: 28 July 2022]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SaamyThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: SaamyThe Release Date in the IMDB Website was: 1 May 2003The Release Date in the Wikipedia Website was: 1 May 2003]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: RatsasanThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: RatsasanThe Release Date in the IMDB Website was: 5 October 2018The Release Date in the Wikipedia Website was: 5 October 2018]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: RangasthalamThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: RangasthalamThe Release Date in the IMDB Website was: 30 March 2018The Release Date in the Wikipedia Website was: 30 March 2018]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Jodhaa AkbarThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Jodhaa AkbarThe Release Date in the IMDB Website was: 15 February 2008The Release Date in the Wikipedia Website was: 15 February 2008]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SholayThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: SholayThe Release Date in the IMDB Website was: 15 August 1975The Release Date in the Wikipedia Website was: 15 August 1975]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SalaarThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was not matched. For the movie: SalaarThe Release Date in the IMDB Website was: 2023The Release Date in the Wikipedia Website was: 28 September 2023]]>
+    </line>
+    <line>
+      <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: K.G.F: Chapter 2The country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+    </line>
+    <line>
+      <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: K.G.F: Chapter 2The Release Date in the IMDB Website was: 14 April 2022The Release Date in the Wikipedia Website was: 14 April 2022]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-08-16T08:05:31 IST" name="Default suite" finished-at="2022-08-16T08:09:31 IST" duration-ms="240115">
+  <suite started-at="2022-08-16T08:25:50 IST" name="Default suite" finished-at="2022-08-16T08:29:37 IST" duration-ms="227228">
     <groups>
     </groups>
-    <test started-at="2022-08-16T08:05:31 IST" name="Default test" finished-at="2022-08-16T08:09:31 IST" duration-ms="240115">
+    <test started-at="2022-08-16T08:25:50 IST" name="Default test" finished-at="2022-08-16T08:29:37 IST" duration-ms="227228">
       <class name="testcases.TestCase_1">
-        <test-method is-config="true" signature="driverMethod()[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:05:31 IST" name="driverMethod" finished-at="2022-08-16T08:05:47 IST" duration-ms="16090" status="PASS">
+        <test-method is-config="true" signature="driverMethod()[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:25:50 IST" name="driverMethod" finished-at="2022-08-16T08:26:07 IST" duration-ms="17438" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[IMDB website was loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Wikipedia website was loaded.]]>
+            </line>
+            <line>
+              <![CDATA[Maximized the window.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- driverMethod -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:05:50 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:06:17 IST" duration-ms="27140" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:26:09 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:26:33 IST" duration-ms="23670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +101,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: PushpaThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: PushpaThe Release Date in the IMDB Website was: 17 December 2021The Release Date in the Wikipedia Website was: 17 December 2021]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:06:17 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:06:41 IST" duration-ms="23775" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:26:33 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:26:50 IST" duration-ms="16483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,9 +118,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Kumbalangi NightsThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Kumbalangi NightsThe Release Date in the IMDB Website was: 7 February 2019The Release Date in the Wikipedia Website was: 7 February 2019]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:06:41 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:06:59 IST" duration-ms="18096" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:26:50 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:27:07 IST" duration-ms="17759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,9 +135,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Vikrant RonaThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Vikrant RonaThe Release Date in the IMDB Website was: 28 July 2022The Release Date in the Wikipedia Website was: 28 July 2022]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:06:59 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:07:20 IST" duration-ms="20681" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:27:07 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:27:26 IST" duration-ms="18743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,9 +152,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SaamyThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: SaamyThe Release Date in the IMDB Website was: 1 May 2003The Release Date in the Wikipedia Website was: 1 May 2003]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:07:20 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:07:42 IST" duration-ms="22697" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:27:26 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:27:47 IST" duration-ms="20541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,9 +169,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: RatsasanThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: RatsasanThe Release Date in the IMDB Website was: 5 October 2018The Release Date in the Wikipedia Website was: 5 October 2018]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:07:42 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:08:06 IST" duration-ms="23606" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:27:47 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:28:20 IST" duration-ms="33655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,9 +186,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: RangasthalamThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: RangasthalamThe Release Date in the IMDB Website was: 30 March 2018The Release Date in the Wikipedia Website was: 30 March 2018]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:08:06 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:08:29 IST" duration-ms="22530" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:28:20 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:28:44 IST" duration-ms="23424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,9 +203,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: Jodhaa AkbarThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: Jodhaa AkbarThe Release Date in the IMDB Website was: 15 February 2008The Release Date in the Wikipedia Website was: 15 February 2008]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:08:29 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:08:49 IST" duration-ms="20632" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:28:44 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:29:01 IST" duration-ms="17687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,9 +220,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SholayThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: SholayThe Release Date in the IMDB Website was: 15 August 1975The Release Date in the Wikipedia Website was: 15 August 1975]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:08:49 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:09:13 IST" duration-ms="23745" status="FAIL">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:29:01 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:29:20 IST" duration-ms="18355" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -117,7 +246,7 @@ expected [true] but found [false]]]>
 expected [true] but found [false]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testcases.TestCase_1.imdbAndWikiTest(TestCase_1.java:82)
+at testcases.TestCase_1.imdbAndWikiTest(TestCase_1.java:89)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,9 +279,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: SalaarThe country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was not matched. For the movie: SalaarThe Release Date in the IMDB Website was: 2023The Release Date in the Wikipedia Website was: 28 September 2023]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:09:13 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:09:30 IST" duration-ms="17025" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:29:20 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T08:29:35 IST" duration-ms="15587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,10 +296,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[The Country in IMDB and Wikipedia was correctly matched. For the movie: K.G.F: Chapter 2The country in the IMDB Website was: IndiaThe country in the Wikipedia Website was: India]]>
+            </line>
+            <line>
+              <![CDATA[The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: K.G.F: Chapter 2The Release Date in the IMDB Website was: 14 April 2022The Release Date in the Wikipedia Website was: 14 April 2022]]>
+            </line>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:09:30 IST" name="driverClose" finished-at="2022-08-16T08:09:31 IST" duration-ms="1384" status="PASS">
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.TestCase_1@537f60bf]" started-at="2022-08-16T08:29:35 IST" name="driverClose" finished-at="2022-08-16T08:29:37 IST" duration-ms="1332" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Driver closed.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- driverClose -->
       </class> <!-- testcases.TestCase_1 -->

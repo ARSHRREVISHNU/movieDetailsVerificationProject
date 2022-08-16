@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
+import org.testng.Reporter;
 import org.testng.annotations.*;
 import pages.IMDBPage;
 import pages.WikipediaPage;
@@ -26,12 +27,15 @@ public class TestCase_1 {
 		driver = new ChromeDriver();
 		//Loading IMDB Website
 		driver.get("https://www.imdb.com/");
+		Reporter.log("IMDB website was loaded.");
 		//Opening new tab
 		driver.switchTo().newWindow(WindowType.TAB);
 		//Loading Wikipedia website
 		driver.get("https://en.wikipedia.org/");
+		Reporter.log("Wikipedia website was loaded.");
 		//Maximizing the window
 		driver.manage().window().maximize();
+		Reporter.log("Maximized the window.");
 
 	}
 
@@ -59,18 +63,22 @@ public class TestCase_1 {
 		//Checking if the country name in the wikipedia and imdb was same or not
 		if(wiki.wikiActualcountryRelease.contentEquals(imdb.imdbActualCountryRelease)) {
 			country = true;
+			Reporter.log("The Country in IMDB and Wikipedia was correctly matched. For the movie: "+movieName+"The country in the IMDB Website was: "+imdb.imdbActualCountryRelease+"The country in the Wikipedia Website was: "+wiki.wikiActualcountryRelease);
 		}
 		else
 		{
 			country = false;
+			Reporter.log("The Country in the IMDB and the Wikipedia was not matched. For the movie: "+movieName+"The country in the IMDB Website was: "+imdb.imdbActualCountryRelease+"The country in the Wikipedia Website was: "+wiki.wikiActualcountryRelease);
 		}
 		//Checking if the release date in the wikipedia and imdb was same or not
 		if(wiki.wikiActualCountryReleaseDate.contentEquals(imdb.imdbActualCountryReleaseDate)) {
 			releaseDate = true;
+			Reporter.log("The Release Date in the IMDB and the Wikipedia was correctly matched. For the movie: "+movieName+"The Release Date in the IMDB Website was: "+imdb.imdbActualCountryReleaseDate+"The Release Date in the Wikipedia Website was: "+wiki.wikiActualCountryReleaseDate);
 		}
 		else
 		{
 			releaseDate = false;
+			Reporter.log("The Release Date in the IMDB and the Wikipedia was not matched. For the movie: "+movieName+"The Release Date in the IMDB Website was: "+imdb.imdbActualCountryReleaseDate+"The Release Date in the Wikipedia Website was: "+wiki.wikiActualCountryReleaseDate);
 		}
 
 		//Checking the country in imdb and wikipedia was true and release date in imdb and wikipedia was true
@@ -86,6 +94,7 @@ public class TestCase_1 {
 	public void driverClose() {
 
 		driver.quit();
+		Reporter.log("Driver closed.");
 	}
 
 
