@@ -20,7 +20,7 @@ public class TestCase_1 {
 	//drivermethod executed before imdbAndWikiTest
 	@BeforeTest
 	public void driverMethod(){
-		String var = "C:\\Users\\DELL\\eclipse-workspace\\moviedetailsverification\\src\\main\\java\\resources\\chromedriver_win32 (104)\\chromedriver.exe";
+		String var = "./src/main/java/resources/chromedriver_win32 (104)//chromedriver.exe";
 		//Setting the system property
 		System.setProperty("webdriver.chrome.driver", var);
 		 driver = new ChromeDriver();
@@ -87,7 +87,7 @@ public class TestCase_1 {
 	@DataProvider(name="inputProvider")
 	//Data provider method
 	public String[][] inputMethod() throws IOException {		
-		String path = "C:\\Users\\DELL\\eclipse-workspace\\moviedetailsverification\\src\\main\\java\\resources\\DataSheet.xlsx";
+		String path = "./src/main/java/resources/DataSheet.xlsx";
 		//Loading the sheet
 		XLUtility xlUtil = new XLUtility(path);
 		//Getting total no of rows in the excel sheet

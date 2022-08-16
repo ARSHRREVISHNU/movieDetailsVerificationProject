@@ -6,7 +6,7 @@
       <class name="testcases.TestCase_1">
         <methods>
           <include name="driverClose"/>
-          <include name="imdbAndWikiTest" invocation-numbers="3 8"/>
+          <include name="imdbAndWikiTest"/>
           <include name="driverMethod"/>
         </methods>
       </class> <!-- testcases.TestCase_1 -->

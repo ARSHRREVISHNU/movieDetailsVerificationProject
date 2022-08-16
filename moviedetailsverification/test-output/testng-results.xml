@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-15T13:32:59 IST" name="Default suite" finished-at="2022-08-15T13:35:37 IST" duration-ms="158323">
+  <suite started-at="2022-08-16T06:27:44 IST" name="Default suite" finished-at="2022-08-16T06:31:00 IST" duration-ms="195683">
     <groups>
     </groups>
-    <test started-at="2022-08-15T13:32:59 IST" name="Default test" finished-at="2022-08-15T13:35:37 IST" duration-ms="158323">
+    <test started-at="2022-08-16T06:27:44 IST" name="Default test" finished-at="2022-08-16T06:31:00 IST" duration-ms="195683">
       <class name="testcases.TestCase_1">
-        <test-method is-config="true" signature="driverMethod()[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:32:59 IST" name="driverMethod" finished-at="2022-08-15T13:33:10 IST" duration-ms="11449" status="PASS">
+        <test-method is-config="true" signature="driverMethod()[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:27:44 IST" name="driverMethod" finished-at="2022-08-16T06:27:58 IST" duration-ms="13257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverMethod -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:33:12 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:33:32 IST" duration-ms="19746" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:28:01 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:28:26 IST" duration-ms="25379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:33:32 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:33:45 IST" duration-ms="13377" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:28:26 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:28:44 IST" duration-ms="18019" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:33:45 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:33:58 IST" duration-ms="13298" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:28:44 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:29:03 IST" duration-ms="18622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:33:58 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:34:11 IST" duration-ms="13118" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:29:03 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:29:18 IST" duration-ms="14425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:34:11 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:34:24 IST" duration-ms="12892" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:29:18 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:29:33 IST" duration-ms="15814" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:34:24 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:34:40 IST" duration-ms="15744" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:29:33 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:29:50 IST" duration-ms="17127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:34:40 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:34:54 IST" duration-ms="13912" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:29:50 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:30:08 IST" duration-ms="17983" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:34:54 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:35:07 IST" duration-ms="13145" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:30:08 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:30:26 IST" duration-ms="17626" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:35:07 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:35:22 IST" duration-ms="14415" status="FAIL">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:30:26 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:30:41 IST" duration-ms="14574" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -109,16 +109,16 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Country and Release date both are same expected [false] but found [true]]]>
+              <![CDATA[Country and Release date both are not same expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Country and Release date both are same expected [false] but found [true]
+              <![CDATA[java.lang.AssertionError: Country and Release date both are not same expected [false] but found [true]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:976)
-at testcases.TestCase_1.imdbAndWikiTest(TestCase_1.java:83)
+at testcases.TestCase_1.imdbAndWikiTest(TestCase_1.java:76)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,7 +153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:35:22 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-15T13:35:36 IST" duration-ms="14173" status="PASS">
+        <test-method signature="imdbAndWikiTest(java.lang.String)[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:30:41 IST" name="imdbAndWikiTest" data-provider="inputProvider" finished-at="2022-08-16T06:30:58 IST" duration-ms="17298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,7 +164,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imdbAndWikiTest -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-15T13:35:36 IST" name="driverClose" finished-at="2022-08-15T13:35:37 IST" duration-ms="1228" status="PASS">
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.TestCase_1@368247b9]" started-at="2022-08-16T06:30:58 IST" name="driverClose" finished-at="2022-08-16T06:31:00 IST" duration-ms="2096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
